@@ -1,7 +1,7 @@
 
 # Instruction
 This repo consists of two apps:
-1. Front-end -> `app` and 
+1. Front-end -> `app`
 2. Backend -> `worker`
 
 To start development locally, you will need to setup your `./worker/wrangler.toml` which you will need to run following commands to create a 

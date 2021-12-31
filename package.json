@@ -14,6 +14,7 @@
     "prepare": "echo '---DEV---' && cd worker && wrangler kv:namespace create --preview 'AUTH_STORE' && echo '---PROD---' && wrangler kv:namespace create 'AUTH_STORE'",
     "start-app": "cd app && yarn start",
     "commit": "git add .github && git add app && git add worker && git commit -m 'ci: test' && git push",
+    "git-add": "git add .github && git add app && git add worker",
     "wrangler dev": "wrangler dev --env development"
   },
   "keywords": [],
