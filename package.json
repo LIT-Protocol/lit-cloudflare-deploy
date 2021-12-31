@@ -15,7 +15,8 @@
     "start-app": "cd app && yarn start",
     "commit": "git add .github && git add app && git add worker && git commit -m 'ci: test' && git push",
     "git-add": "git add .github && git add app && git add worker",
-    "wrangler dev": "wrangler dev --env development"
+    "wrangler dev": "wrangler dev --env development",
+    "build-app" : "cd app & yarn build"
   },
   "keywords": [],
   "author": "",

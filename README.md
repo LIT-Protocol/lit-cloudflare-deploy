@@ -20,3 +20,12 @@ For the `[vars]`, you will need to go to your GitHub account's developer oAuth a
 For the callback section, place your your.worker.com`/callback`.
 
 When running the it locally, you are previewing the react app from the worker `wrangler dev --env development` instead of `yarn start` in the app folder.
+
+# Quick Start
+
+```
+cd ./app && npm install
+
+cd ./worker && npm install
+
+```

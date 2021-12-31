@@ -141,8 +141,7 @@ export default ({
                     target="_blank"
                   >
                     Account ID and an Global API Token
-                  </a>{" "}
-                  with “Edit Workers” permissions.
+                  </a>{" "}.
                 </p>
               </div>
               <div className="flex">
@@ -279,8 +278,7 @@ export default ({
               {subcurrent.value === "error" ? (
                 <AlertPanel>
                   <span>
-                    Account ID or API Token are not valid. Check your Account ID
-                    is correct and API Token has permissions to Edit Workers
+                    Account ID or Global API Token are not valid.
                   </span>
                 </AlertPanel>
               ) : (
